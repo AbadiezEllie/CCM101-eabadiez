@@ -53,3 +53,14 @@ AWS is recommended because it provides a large global infrastructure suitable fo
 1. **Amazon EC2** – Provides scalable computing resources for running the e-commerce application.
 2. **Amazon S3** – Provides highly scalable storage for product images, files, and other data.
 3. **Elastic Load Balancing** – Distributes incoming traffic across application resources to improve availability and performance.
+
+## Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | AWS offers a wide range of scalable services that allow startups to begin with smaller resources and expand as their business grows. |
+| Enterprise Organization | AWS | AWS provides a broad range of services, mature infrastructure, strong security options, and global scalability suitable for large organizations. |
+| Microsoft Environment | Microsoft Azure | Azure integrates closely with Windows Server, Microsoft 365, and Microsoft Entra ID, making it suitable for organizations using Microsoft technologies. |
+| AI / Machine Learning | Google Cloud Platform | GCP provides strong AI and machine learning capabilities through services such as Vertex AI and supports high-performance computing workloads. |
+| Kubernetes Deployment | Google Cloud Platform | GCP provides Google Kubernetes Engine (GKE), a managed Kubernetes service that makes deploying and managing containerized applications easier. |
+| Global Web Application | AWS | AWS provides global infrastructure, scalable computing, load balancing, and multiple availability options for applications serving users around the world. |
