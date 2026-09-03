@@ -11,7 +11,7 @@ The server has:
 - Cores per socket: 1
 - Threads per core: 1
 - Hypervisor: KVM
-- 
+  
 ## CPU Information
 
 The server has:
