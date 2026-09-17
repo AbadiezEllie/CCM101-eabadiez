@@ -14,8 +14,3 @@
 4. `docker rm mynginx`  
    Removes the container completely from the system.
 
-## Screenshots
-- `screenshots/docker-version.png`
-- `screenshots/nginx-running.png`
-- `screenshots/container-lifecycle.png`
-
