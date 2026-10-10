@@ -8,7 +8,5 @@ The database tier runs MariaDB, which stores structured information used by Next
 ## Why Separate the Tiers?
 Separating the web application and database into different containers makes the system easier to manage, update, troubleshoot, and scale independently. It also gives each service a clearer responsibility and avoids coupling the application runtime and database software into one container. Docker Compose creates a private network so the services can communicate without exposing the database port directly to the host.
 ## Architecture Summary
-**User/browser:** opens the Nextcloud interface through port 8080.
-**Application tier:** Nextcloud receives browser requests and uses MariaDB.
-**Database tier:** MariaDB stores Nextcloud's structured application data.
-**Container networking:** the app connects to the database using the service name `database`
+User/browser opens the Nextcloud interface through port 8080 while Application tier in  Nextcloud receives browser requests and uses MariaDB.
+The Database tier wherein MariaDB stores Nextcloud's structured application data. Latly, the Container networking is where the app connects to the database using the service name `database`.
